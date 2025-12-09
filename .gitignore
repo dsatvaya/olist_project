@@ -1,0 +1,18 @@
+# Python internals
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Data (CRITICAL: Ignore all data folders)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Environment variables (Safety)
+.env
+.DS_Store
