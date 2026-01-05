@@ -49,12 +49,21 @@ I engineered a **Three-Layer Architecture**:
 ## 📂 Repository Structure
 ```text
 olist-analytics/
+├── data/
+│   ├── raw/                # Original CSV files (Bronze)
+│   └── processed/          # Cleaned CSVs for Power BI (Silver)
+├── sql/                    # DDL Scripts (Schema Definitions)
+│   ├── create_table.sql    # Creates raw tables for ingestion
+│   └── create_cleanview.sql # Creates Clean Views (Silver Layer)
 ├── src/
-│   ├── ingestion/          # Python scripts for loading raw CSVs to Postgres
-│   ├── sql/                # SQL scripts for Cleaning Views & Analysis
-│   │   ├── create_clean_views.sql  # The Silver Layer logic
-│   │   └── revenue_analysis.sql    # Validation queries
-│   └── dashboard/          # Power BI file (.pbix) and export scripts
-├── data/                   # (Raw data not included due to size)
-├── screenshots/            # Images of the final dashboard
-└── README.md               # Project Documentation
+│   ├── analysis/           # Analytical SQL Queries
+│   │   ├── audit_data_quality.sql  # Data integrity checks
+│   │   └── revenue_by_state.sql    # Supply chain validation queries
+│   └── etl/                # Python ETL Scripts
+│       ├── ingest_db.py    # Loads raw CSVs into Postgres
+│       ├── verify_db.py    # connection testing
+│       └── export_processed.py # Exports Clean Views to CSV
+├── screenshots/            # Dashboard images
+├── notebooks/              # Sandbox for experimental analysis
+├── README.md               # Project Documentation
+└── requirements.txt        # Python dependencies
