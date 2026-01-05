@@ -16,3 +16,8 @@ data/processed/*
 # Environment variables (Safety)
 .env
 .DS_Store
+
+# Power BI
+*.pbix
+*.pbit
+
