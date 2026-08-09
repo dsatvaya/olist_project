@@ -7,7 +7,7 @@
 
 **Key Insight:** Analysis revealed that **São Paulo (SP)** acts as a massive "Net Exporter" for the Brazilian e-commerce ecosystem.
 * **Supply vs. Demand:** SP Sellers generate **$8.8M** in revenue (Supply), while SP Customers only consume **$5.2M** (Demand), creating a **$3.6M trade surplus**.
-* **Self-Sufficiency:** **69.4%** of local demand is met by local sellers, driven by a **30% logistics cost advantage** compared to other states.
+* **Self-Sufficiency:** 69.4% of local demand is fulfilled by local sellers, highlighting strong intra-state seller concentration and potential logistics advantages.
 
 ---
 
