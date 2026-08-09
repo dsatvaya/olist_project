@@ -13,7 +13,7 @@
 
 ## 🛠 Tech Stack
 * **Database:** PostgreSQL (Data Warehouse Storage)
-* **ETL & Modeling:** Python (Pandas, SQLAlchemy), SQL (Complex Joins, Views, Window Functions)
+* **ETL & Modeling:** Python (Pandas, SQLAlchemy), SQL (Complex Joins, Views, Aggregations)
 * **Visualization:** Power BI (Star Schema, DAX, Interactive Dashboard)
 * **Concepts:** Dimensional Modeling (Kimball), Bronze/Silver/Gold Architecture, Data Cleaning
 
@@ -42,7 +42,7 @@ I engineered a **Three-Layer Architecture**:
 ### 4. Result (The Impact)
 * **Quantified Market Dominance:** Proven that São Paulo is a **Net Exporter**, selling $8.8M in goods but only consuming $5.2M.
 * **Operational Insight:** Identified that **Logistics Costs** are the primary driver of local commerce. Shipping within SP costs **$14.00**, whereas cross-state shipping to the North averages **$35.00+**.
-* **Financial Clarity:** Visualized that **78% of volume** flows through Credit Cards, aiding cash flow forecasting.
+* **Financial Clarity:** Visualized that **78% of total payment value** flows through Credit Cards, aiding cash flow forecasting.
 
 ---
 
